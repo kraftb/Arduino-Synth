@@ -65,7 +65,7 @@ If this is not possible you will have to try some values yourself.
 Values between 20 and 100 are a good start.
 
 If your are interested in how the whole stuff works do not fear to look at
-Synth.h and Synth.cpp. I tried to create a lot of _inline code documentation_
+Synth.h and Synth.cpp. I tried to create a lot of **inline code documentation**
 so the code is readable and understandable.
 
 Music
