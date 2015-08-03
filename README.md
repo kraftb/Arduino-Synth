@@ -1,15 +1,16 @@
 Android Synthesizer - v0.1
 ==========================
 
-This project implements a working software synthesizer for the Arduino
-UNO (ATMEGA328P). Sound is generated on either pin 3 or pin 11 using
-the built-in PWM at it's maxiumu frequency of 62.5 kHz. The PWM value
+This project implements a working MIDI software synthesizer for the
+Arduino UNO (ATMEGA328P). Sound is generated on either pin 3 or pin
+11 using the built-in PWM at it's maxiumu frequency of 62.5 kHz. The PWM value
 is updated every 5th PWM cycle so the sampling frequency is pinned down
 to 12.5 kHz.
 
 But this is enough to play simple tunes like Yankee Doodle Dandy or the
 Super Mario theme. There are three examples included which are ready to
-get downloaded on your Arduino.
+get downloaded on your Arduino. Those examples have been converted from
+MIDI files.
 
 Hardware
 --------
@@ -74,10 +75,13 @@ project. It is currently not written very nice but be invited to help
 me improve. The script works for simple MIDI files and it will output
 a complete Arduino sketch to stdout.
 
-Many MIDI files also feature a drum track. Those tracks won't sound very
+Many MIDI files also features a drum track. Those tracks won't sound very
 nice when combined with the music tracks. So you will have to experiment
 a little bit and eventually remove one or another track from the final
 "SYNTH\_TRACK" array which gets passed to the "play" method.
+
+TODO: I do not have the "midi.php" script at hand. Hopefully I do not forget
+to upload it soon!!
 
 Alternatives
 ------------
