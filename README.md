@@ -88,8 +88,12 @@ nice when combined with the music tracks. So you will have to experiment
 a little bit and eventually remove one or another track from the final
 "SYNTH\_TRACK" array which gets passed to the "play" method.
 
-TODO: I do not have the "midi.php" script at hand. Hopefully I do not forget
-to upload it soon!!
+In the "scripts" directory is also a script for re-generating the sine
+table and the MIDI note frequency/period tables.
+
+Additionally there is a "synt.c" program which can get compiled under Linux.
+It allows to test the concept of the synthesizer directly on a PC without
+the need for an Arduino. See inline code documentation.
 
 Alternatives
 ------------
