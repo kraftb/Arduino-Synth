@@ -1,5 +1,5 @@
-Android Synthesizer - v0.1
-==========================
+Arduino Midi Synthesizer - v0.1
+===============================
 
 This project implements a working MIDI software synthesizer for the
 Arduino UNO (ATMEGA328P). Sound is generated on either pin 3 or pin
