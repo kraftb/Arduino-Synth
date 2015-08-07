@@ -12,6 +12,14 @@ Super Mario theme. There are three examples included which are ready to
 get downloaded on your Arduino. Those examples have been converted from
 MIDI files.
 
+Installation
+------------
+
+Simply download this package and put its contents in "$HOME/sketchbook/libraries/Synth".
+Then restart your Arduino IDE. You should then be able to select any of the
+provided examples from within the Menu and directly download it to your Arduino
+Uno.
+
 Hardware
 --------
 
